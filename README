@@ -1,0 +1,24 @@
+NAME
+    Sledge::Plugin::Template::Plugin::Comma - auto use
+    Template::Plugin::Comma
+
+SYNOPSIS
+      # in pages
+      package Your::Pages;
+      use Sledge::Plugin::Template::Plugin::Comma;
+
+      # in templates
+      [% 355555 | comma %]
+
+DESCRIPTION
+    Auto use Template::Plugin::Comma.
+
+AUTHOR
+    MATSUNO Tokuhiro <tokuhirom at gmail dot com>
+
+    This library is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
+
+SEE ALSO
+    Template::Plugin::Comma
+
